@@ -35,7 +35,7 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-// Modal-show up
+// Modal 
 const popup = document.querySelector('.modal-container');
 const close = document.querySelector('.button-cls');
 
@@ -44,8 +44,9 @@ const close = document.querySelector('.button-cls');
         popup.style.display= "block";
       },700)
     }
-
 close.addEventListener('click', () => {
   popup.style.display= "none";
 })
 
+
+// Modal
