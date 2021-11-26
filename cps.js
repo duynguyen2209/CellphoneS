@@ -39,11 +39,10 @@ function backToTop() {
 const popup = document.querySelector('.modal-container');
 const close = document.querySelector('.button-cls');
 
-    window.onload = function(){
-      setTimeout(function(){
-        popup.style.display= "block";
-      },300)
-    }
+window.onload = function(){
+  popup.style.display= "block";
+}
+  
 close.addEventListener('click', () => {
   popup.style.display= "none";
 })
