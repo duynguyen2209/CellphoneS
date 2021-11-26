@@ -34,3 +34,18 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// Modal-show up
+const popup = document.querySelector('.modal-container');
+const close = document.querySelector('.button-cls');
+
+    window.onload = function(){
+      setTimeout(function(){
+        popup.style.display= "block";
+      },700)
+    }
+
+close.addEventListener('click', () => {
+  popup.style.display= "none";
+})
+
