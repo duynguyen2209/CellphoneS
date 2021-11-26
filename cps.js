@@ -40,9 +40,10 @@ const popup = document.querySelector('.modal-container');
 const close = document.querySelector('.button-cls');
 
 window.onload = function(){
-  popup.style.display= "block";
-}
-  
+  setTimeout(function(){
+    popup.style.display= "block";
+  },500)
+    }
 close.addEventListener('click', () => {
   popup.style.display= "none";
 })
