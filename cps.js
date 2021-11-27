@@ -42,7 +42,7 @@ const close = document.querySelector('.button-cls');
 window.onload = function(){
   setTimeout(function(){
     popup.style.display= "block";
-  },500)
+    },500)
     }
 close.addEventListener('click', () => {
   popup.style.display= "none";
