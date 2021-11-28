@@ -1096,7 +1096,7 @@ html{
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 15px;
-    animation: Fadein ease 0.3s
+    
 }
 
 .thumbnail{
@@ -1108,9 +1108,6 @@ html{
 	margin: 5px;
 	border: 1px solid #ccc;
     border-radius: 10px;
-    animation: Fadein ease 0.3s
-
-
 }
 
 .thumbnail:hover{
@@ -1154,5 +1151,43 @@ html{
 
 .button-slide:hover{
     transform: scale(1.4);
+}
+
+.prd-paid-wrapper{
+    display: flex;
+}
+
+.prd-paid{
+    margin-left: 10px;
+    border:1px solid #d70018;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: #fef2f2;
+    margin-bottom: 0;
+}
+
+.price-prd{
+    margin: 20px 0 0 10px;
+}
+
+.prd-new-price{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #d70018;
+}
+
+.dong_vnd{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: #d70018;
+    font-style: oblique;
+}
+
+.prd-old-price{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #707070;
+    text-decoration: line-through;
+    margin-left: 10px;
 }
 
