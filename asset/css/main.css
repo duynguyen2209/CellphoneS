@@ -1070,3 +1070,11 @@ html{
 .smemmer{
     padding-right: 24px;
 }
+
+/* Prd-column */
+.info-prd{
+    margin: 20px auto;   
+    width: 1180px;
+    height: 700px;
+    text-align: center;
+}
