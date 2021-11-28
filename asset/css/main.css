@@ -1078,3 +1078,79 @@ html{
     height: 700px;
     text-align: center;
 }
+
+#content-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#featured{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	cursor: pointer;
+	border: 2px solid black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 120px;
+	max-height: 60px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+#slide-wrapper{
+	width: 400px;
+	display: flex;
+    margin: 20px auto;
+	height: 80px;
+	align-items: center;
+}
+
+#slider{
+	width: 400px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+}
+
+.button-slide{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.btn-left{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.btn-right{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.button-slide:hover{
+    transform: scale(1.4);
+}
+
