@@ -896,7 +896,7 @@ html{
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 100;
-    animation:  modalFadein ease 0.3s;
+    animation: Fadein ease 0.3s;
 }
 
 .modal-popup{
@@ -927,7 +927,7 @@ html{
     top: 125px;
 }
 
-@keyframes modalFadein {
+@keyframe Fadein {
     from{
         opacity: 0;
     }
@@ -1076,7 +1076,6 @@ html{
     margin: 20px auto;   
     width: 1180px;
     height: 700px;
-    text-align: center;
 }
 
 #content-wrapper{
@@ -1095,8 +1094,9 @@ html{
 	cursor: pointer;
 	border: 2px solid black;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 15px;
+    animation: Fadein ease 0.3s
 }
 
 .thumbnail{
@@ -1107,7 +1107,9 @@ html{
 	opacity: 0.5;
 	margin: 5px;
 	border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
+    animation: Fadein ease 0.3s
+
 
 }
 

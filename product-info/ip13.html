@@ -157,7 +157,74 @@
                         </div>
                     </div>
                     <div class="col">
-                      Column
+                      <div class="prd-price">
+                        <div class="prd-paid">Trả góp 0%</div>
+                        <span class="prd-new-price">36.999.00<span class="red-line">đ</span></span>
+                        <span class="prd-old-price">40.000.000 đ</span>
+                      </div>
+                      <div class="prd-option">
+                          <div class="prd-list">
+                              <a href="#" class="prd-link-option">
+                                  <strong>1TB</strong>
+                                  <span>47.000.000 đ</span>
+                              </a>
+                              <a href="#" class="prd-link-option">
+                                <strong>521GB</strong>
+                                <span>42.000.000 đ</span>
+                              </a>
+                              <a href="#" class="prd-link-option">
+                                <strong>256GB</strong>
+                                <span>38.000.000 đ</span>
+                              </a>
+                              <a href="#" class="prd-link-option">
+                                <strong>128GB</strong>
+                                <span>36.999.000 đ</span>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="prd-color-option">
+                          <div class="prd-color-title"><p>Chọn màu để xem giá và chi nhánh có hàng</p></div>
+                          <div class="prd-box-color">
+                              <ul class="prd-list-color">
+                                  <li class="prd-color">
+                                      <a href="#" class="prd-cl-link">
+                                          <img src="./img-thumnail/1.jpg" alt="">
+                                          <p>
+                                              <strong>Xanh</strong>
+                                              <span>36.999.000 đ</span>
+                                          </p>
+                                      </a>
+                                  </li>
+                                  <li class="prd-color">
+                                    <a href="#" class="prd-cl-link">
+                                        <img src="./img-thumnail/4.jpg" alt="">
+                                        <p>
+                                            <strong>Đen</strong>
+                                            <span>34.999.000 đ</span>
+                                        </p>
+                                    </a>
+                                  </li>
+                                  <li class="prd-color">
+                                    <a href="#" class="prd-cl-link">
+                                        <img src="./img-thumnail/6.jpg" alt="">
+                                        <p>
+                                            <strong>Xanh</strong>
+                                            <span>35.499.000 đ</span>
+                                        </p>
+                                    </a>
+                                  </li>
+                                  <li class="prd-color">
+                                    <a href="#" class="prd-cl-link">
+                                        <img src="./img-thumnail/1.jpg" alt="">
+                                        <p>
+                                            <strong>Vàng</strong>
+                                            <span>37.299.000 đ</span>
+                                        </p>
+                                    </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
                     </div>
                     <div class="col">
                       Column
@@ -166,38 +233,7 @@
             </div>
           </div>
     </div>
-    <script>
-        let thumbnails = document.getElementsByClassName('thumbnail')
-
-        let activeImages = document.getElementsByClassName('active')
-
-        for (var i=0; i < thumbnails.length; i++){
-
-            thumbnails[i].addEventListener('click', function(){
-                console.log(activeImages)
-                
-                if (activeImages.length > 0){
-                    activeImages[0].classList.remove('active')
-                }
-                
-
-                this.classList.add('active')
-                document.getElementById('featured').src = this.src
-            })
-        }
-
-
-        let buttonRight = document.getElementById('slideRight');
-        let buttonLeft = document.getElementById('slideLeft');
-
-        buttonLeft.addEventListener('click', function(){
-            document.getElementById('slider').scrollLeft -= 180
-        })
-
-        buttonRight.addEventListener('click', function(){
-            document.getElementById('slider').scrollLeft += 180
-        })
-
+    <script src="./prd.js">
     </script>
 </body>
 </html>
