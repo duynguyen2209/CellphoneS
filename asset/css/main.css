@@ -902,6 +902,7 @@ html{
 .modal-popup{
     margin: auto;
     width: 1310px;
+    position: relative;
 }
 
 .img-modalpopup{
@@ -923,8 +924,8 @@ html{
     background: transparent;
     font-weight: 900;
     position: absolute;
-    right: 115px;
-    top: 125px;
+    right: 10px;
+    top: 5px;
 }
 
 
