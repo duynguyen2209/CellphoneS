@@ -42,12 +42,10 @@ const close = document.querySelector('.button-cls');
 window.onload = function(){
   setTimeout(function(){
     popup.style.display= "block";
-    },500)
+    },1000)
     }
 close.addEventListener('click', () => {
   popup.style.display= "none";
 })
 
-
-// Slider-product
 
