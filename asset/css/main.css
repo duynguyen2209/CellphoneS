@@ -1075,7 +1075,7 @@ html{
 .info-prd{
     margin: 20px auto;   
     width: 1180px;
-    height: 700px;
+    height: 900px;
 }
 
 #content-wrapper{
@@ -1387,6 +1387,16 @@ html{
     border-radius: 10px;
 }
 
+.buy-btn-link strong{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.buy-btn-link span{
+    font-size: 1.4rem;
+}
+
+
 .btn-blue{
     text-decoration: none;
     width: 172px;
@@ -1573,4 +1583,72 @@ html{
     width: 25px;
     height: 25px;
     text-align: center;
+}
+
+/* phone feature */
+.phone-feature-wrapper{
+    width: 1180px;
+    margin: auto;
+    height: 1000px;
+}
+
+.box-infomation{
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+
+.feature-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e45656;
+    text-transform: uppercase;
+    padding: 8px;
+    text-align: center;
+}
+
+.feature-list{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-item{
+    margin: 5px 0 0 0;
+    font-size: 1.3rem;
+    font-weight:500;
+}
+
+.blog-content{
+    margin-left: 17px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.blog-content > p  > strong > a{
+    text-decoration: none;
+    color:#e45656 ;
+}
+
+.blox-text{
+    font-size: 1.4rem;
+    margin: 0 0 10px;
+}
+
+/* table - tech info */
+table{
+    border: 0;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 100%;
+}
+
+.wrapper-tech{
+    height: 100%;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    border-radius: 10px;
+}
+
+.tech-info-title span{
+    font-size: 1.6rem;
+    margin: 5px 0 10px 5px;
 }
