@@ -1648,7 +1648,10 @@ table{
     border-radius: 10px;
 }
 
-.tech-info-title span{
+.tech-info-text{
     font-size: 1.6rem;
-    margin: 5px 0 10px 5px;
+    margin: 0px 0 10px 5px;
+    padding: 10px 10px 0;
+    font-weight: 600;
 }
+
