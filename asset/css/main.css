@@ -1565,7 +1565,11 @@ html{
 }
 
 .info-icon{
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+    margin-right: 8px;
     width: 25px;
     height: 25px;
     text-align: center;
