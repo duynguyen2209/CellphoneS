@@ -885,8 +885,7 @@ html{
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 100;
-    animation-name: animatetop ;
-    animation-duration: .5s;
+    animation: animatetop .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
