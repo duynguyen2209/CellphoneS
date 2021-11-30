@@ -1758,13 +1758,13 @@ tr:nth-child(even) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: red;
+    background: #d70018;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
 .title-text{
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #fff;
     padding: 15px;
     font-weight: 500;   
@@ -1773,11 +1773,37 @@ tr:nth-child(even) {
 .btn-close-modal{
     font-size: 1.6rem;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     font-weight: 700;   
 }
 
 .content-modal-tech{
-    width: 600px;
+    width: 650px;
     margin: 15px auto;
+}
+
+th:first-child{
+    width: 40%;
+}
+
+.info-title{
+    font-size: 1.6rem;
+    color: #000;
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+}
+
+
+
+.close-btn{
+    width: 70px;
+    height: 50px;
+    background: red;
+    text-align: right;
+    padding: 10px;
+}
+
+.close-item{
+    color: #fff;
+    font-size: 1.4rem;
 }
