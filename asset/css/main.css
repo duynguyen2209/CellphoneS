@@ -226,7 +226,8 @@ html{
 
 .header__locate:hover .choose-place{
     display: block;
-    animation: fadeIn .4s cubic-bezier(.2, .06, .05, .95);
+    animation: animatetop .4s cubic-bezier(.2, .06, .05, .95);
+    transform: translateY;
 }
 
 .header__search-input{
@@ -279,8 +280,9 @@ html{
 
 .item-menu:hover .box-list-menu{
     display: block;
-    animation: fadeIn .4s cubic-bezier(.2, .06, .05, .95);
+    animation: animatetop .4s cubic-bezier(.2, .06, .05, .95);
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    transform: translateY;
 }
 
 .box-list-menu{
@@ -295,16 +297,6 @@ html{
     transition: transform .1s;
 }
 
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-        transform:translateY(-15px)
-    }
-    to{
-        opacity: 1;
-        transform:translateY(0)
-    }
-}
 
 .box-list-menu .list-menu .item-menu{
     padding: 4px 10px;
@@ -348,7 +340,6 @@ html{
 .apple-text{
     flex:1;
     text-align: left;
-
 }
 
 .item-link{
@@ -410,8 +401,6 @@ html{
     overflow: hidden;
     box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
 }
-
-
 
 .swiper__text{
     display: flex;
@@ -1760,14 +1749,19 @@ body.modal-open {
     -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    transform: translateY;
 }
 
 @keyframes animatetop {
-    from {
-        opacity:0}
-    to {
-        opacity:1}
+    from{
+        opacity: 0;
+        transform:translateY(-15px)
+    }
+    to{
+        opacity: 1;
+        transform:translateY(0)
+    }
 }
 
 .modal-title{
