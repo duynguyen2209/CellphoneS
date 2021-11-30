@@ -1855,3 +1855,69 @@ th:first-child{
     overflow: hidden;
     border:1px solid grey;
 }
+
+/* Place  */
+.contain-place-wrraper{
+    width: 1180px;
+    margin: 10px auto;
+}
+
+.img-placebanner{
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.img-placelogo{
+    width: 30%;
+}
+
+.imgpl{
+    background: #e0052b;
+}
+
+.border-place{
+    /* border: 1px solid ; */
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    padding: 10px;
+}
+
+.content-plbox h3{
+    color:#e0052b ;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.content-plbox p{
+    font-size: 1.2rem;
+}
+
+.title-box{
+    font-size: 1.2rem;
+    padding: 0;
+    font-weight: 500;
+}
+
+.title-box p {
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.box-item{
+    padding-left: 14px;
+}
+
+.list-item-place{
+    padding: 4px;
+    font-size: 1.2rem;
+}
+
+.list-item-place:nth-child(odd){
+    color: red;
+}
+
+.title-head{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
