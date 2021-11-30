@@ -896,10 +896,10 @@ html{
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 100;
-    animation-name: animatetop;
+    animation-name: animatetop ;
     animation-duration: .5s;
-    
 }
+
 
 .modal-popup{
     
@@ -1759,7 +1759,7 @@ body.modal-open {
     -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     animation-name: animatetop;
-    animation-duration: 0.5s
+    animation-duration: 0.4s
 }
 
 @keyframes animatetop {
