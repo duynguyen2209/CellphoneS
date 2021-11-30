@@ -896,7 +896,17 @@ html{
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     z-index: 100;
-    animation: Fadein ease 0.3s;
+    animation-name: modalFade;
+    animation-duration: 0.5s
+}
+
+@keyframes modalFade{
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .modal-popup{
@@ -1098,16 +1108,6 @@ html{
     border-radius: 10px;
     padding: 15px;
 }
-
-.fade{
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
 
 .thumbnail{
 	object-fit: cover;
