@@ -44,8 +44,18 @@ window.onload = function(){
     popup.style.display= "block";
     },1000)
     }
+    document.querySelector("body").style.overflow = 'hidden';
+
 close.addEventListener('click', () => {
   popup.style.display= "none";
+  document.querySelector("body").style.overflow = 'visible';
 })
+
+window.onclick = function(event) {
+  if (event.target == popup) {
+  popup.style.display = "none";
+  document.querySelector("body").style.overflow = 'visible';
+  }
+}
 
 
