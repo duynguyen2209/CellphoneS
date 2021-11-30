@@ -1725,7 +1725,12 @@ tr:nth-child(even) {
     border: 1px solid #D70018!important;
     color: #D70018!important;
     background: #FEF2F2!important;
+    cursor: pointer;
 }
+
+body.modal-open {
+    overflow-y: hidden;
+  }
 
 .modal-tech{
     position: fixed;
@@ -1738,20 +1743,33 @@ tr:nth-child(even) {
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
     outline: 0;
-    display: block;
+    display: none;
     background: rgba(0, 0, 0, 0.4);
     overflow-x: hidden;
     overflow-y: auto;
+    
 }
 
 .modal-tech-wrapper{
     width: 40%;
+    height: 1135px;
     margin: 40px auto ;
     border: 0;
     border-radius: 10px;
     background: #ffffff;
     -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    animation-name: animatetop;
+    animation-duration: 0.5s
+}
+
+@keyframes animatetop {
+    from {
+        top:-700px; 
+        opacity:0}
+    to {
+        top:0; 
+        opacity:1}
 }
 
 .modal-title{
@@ -1773,12 +1791,13 @@ tr:nth-child(even) {
 .btn-close-modal{
     font-size: 1.6rem;
     color: #fff;
+    cursor: pointer;
     padding: 20px;
     font-weight: 700;   
 }
 
 .content-modal-tech{
-    width: 650px;
+    width: 95%;
     margin: 15px auto;
 }
 
@@ -1796,14 +1815,27 @@ th:first-child{
 
 
 .close-btn{
-    width: 70px;
+    width: 50%;
     height: 50px;
     background: red;
-    text-align: right;
-    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
 }
 
 .close-item{
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: flex;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
 }
+
+.close-item:hover{
+    color: #fff;
+}
+
