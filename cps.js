@@ -44,7 +44,6 @@ window.onload = function(){
     popup.style.display= "block";
     },1000)
     }
-    document.querySelector("body").style.overflow = 'hidden';
 
 close.addEventListener('click', () => {
   popup.style.display= "none";
