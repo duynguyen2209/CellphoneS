@@ -1086,7 +1086,7 @@ html{
 .info-prd{
     margin: 20px auto;   
     width: 1180px;
-    height: 900px;
+    height: auto;
 }
 
 #content-wrapper{
