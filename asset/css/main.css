@@ -495,7 +495,7 @@ html{
 }
 
 .item-detail:hover{
-    color: rgb(63, 88, 163);
+    color: rgb(0, 0, 0);
     transform: scale(1.02);
     box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);;
 }
