@@ -47,13 +47,11 @@ window.onload = function(){
 
 close.addEventListener('click', () => {
   popup.style.display= "none";
-  document.querySelector("body").style.overflow = 'visible';
 })
 
 window.onclick = function(event) {
   if (event.target == popup) {
   popup.style.display = "none";
-  document.querySelector("body").style.overflow = 'visible';
   }
 }
 

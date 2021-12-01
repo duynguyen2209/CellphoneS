@@ -227,7 +227,7 @@ html{
 .header__locate:hover .choose-place{
     display: block;
     animation: animatetop .4s cubic-bezier(.2, .06, .05, .95);
-    transform: translateY;
+    transform: translateX();
 }
 
 .header__search-input{
@@ -280,7 +280,7 @@ html{
 
 .item-menu:hover .box-list-menu{
     display: block;
-    animation: animatetop .4s cubic-bezier(.2, .06, .05, .95);
+    animation: animateleftright .4s cubic-bezier(.2, .06, .05, .95);
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
     transform: translateY;
 }
@@ -333,7 +333,7 @@ html{
 
 .apple:hover .box-child-2{
     display: block;
-    animation: fadeIn .4s cubic-bezier(.2, .06, .05, .95);
+    animation: animateleftright .4s cubic-bezier(.2, .06, .05, .95);
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
 }
 
@@ -1756,6 +1756,17 @@ body.modal-open {
     from{
         opacity: 0;
         transform:translateY(-15px)
+    }
+    to{
+        opacity: 1;
+        transform:translateY(0)
+    }
+}
+
+@keyframes animateleftright {
+    from{
+        opacity: 0;
+        transform:translateX(-15px)
     }
     to{
         opacity: 1;
