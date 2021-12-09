@@ -1544,7 +1544,7 @@ html{
 }
 
 .box-product{
-    padding-left: 5px;
+    /* padding-left: 5px; */
     list-style: none;
 }
 
@@ -1955,4 +1955,21 @@ th:first-child{
 .call-back{
     text-decoration: none;
     color: #e0052b;
+}
+
+/* Add to cart */
+/* .product-over{
+    display: block;
+} */
+
+.product-image{
+    margin: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.product-over{
+    position: absolute;
+    
 }
